@@ -1,0 +1,122 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 9, 2022, 5:36:47 PM
+    Author     : gussr
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Nunito Sans;
+    
+}
+body{
+    background-color: black
+}
+#menu{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 250px;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-left: 2rem
+}
+#subir_txt{
+    display: block;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+}
+#subir_txt p{
+    position: absolute;
+    margin-top: 1.3rem;
+    margin-left: 2.5rem
+}
+#btn_subir{
+    width: 100%;
+    height: 100%;
+    opacity: 0%
+        
+}
+#titulo{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 28%;
+    margin-right: auto;
+}
+.elementosform{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 2rem;
+}
+#clave{
+    width: 15rem;
+    padding: 1px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+#btn_cifrar{
+    display: none;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+}
+#btn_decifrar{
+    top: -5.4rem;
+    left: 20rem;
+    display: none;
+    border-radius: 1rem;
+    color: white;
+    position: relative;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+}
+
+#btn_enviar{
+    display: none;
+    top: 3rem;
+    left: 12rem;
+    border-radius: 1rem;
+    color: white;
+    position: relative;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+}
+#error{
+    color: red;
+    display: block;
+    left:2rem ;
+    top: 1.2rem;
+    border-radius: 1rem;
+    position: relative;
+    width:35rem;
+    height: 1rem;
+    background-color: white;    
+}
